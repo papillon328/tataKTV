@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#f7f7f7;
+	font-family:"宋体", "微软雅黑","Microsoft YaHei","LiHei Pro Medium",STHeiti,Calibri,"黑体", Arial;
+	font-size: 12px;
+	color: #909090;
+	border: 0;
+	background-image: url(../images/homebg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	line-height: 20px;
+	text-align:left;
+}
+html, body {
+	width: 100%;
+	height:100%;
+}
+ul, li, input, select {
+	list-style: none;
+}
+input.checkbox, input.radio {
+	vertical-align: middle;
+	width: 14px !important;
+	_height: 14px;
+}
+input, select, textarea {
+	font-size: 11px;
+	color: #555;
+	font-family:"宋体", "微软雅黑",Calibri,"Microsoft YaHei","黑体", Arial;
+	vertical-align:middle;
+	line-height: normal;
+	resize:none;
+}
+*+html select {
+	height: 20px !important;
+}
+a, a:link, a:visited {
+	color: #717171;
+	text-decoration: none;
+	cursor: pointer, hand;
+}
+a:hover, a:active {
+	text-decoration: none;
+	color:#a90d9e;
+	cursor: pointer;
+}
+img, fieldset, form, h1, h2, h3, h4, p, dl, dt, dd, p {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-size: 1em;
+}
+div, td, ul, li, dd {
+	padding:0;
+	margin:0;
+	text-transform: none;
+}
+
+/*--------{margin: 0;padding: 0;}---------------*/
+*:focus {outline: none;}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    border: 0 none;
+	outline: 0 none;
+	margin: 0;
+	padding: 0;
+}
+
+article, aside, dialog, figure, footer, header, legend, nav, section {display:block;}
+
+/*---------------------------------分块--------------------------------------*/
+body{ background:url(../images/body.gif) repeat-x top left }
+header{ background:url(../images/top_Bg.jpg) no-repeat center 0,url(../images/body.gif) repeat-x; overflow:hidden; height:198px;}
+header{*background:url(../images/top_Bg.jpg) no-repeat center top;background:url(../images/top_Bg.jpg) no-repeat center top\0;}
+article{ height:691px;}
+footer{ background:url(../images/foot_Bg.jpg) repeat-x; height:190px;}
+
+/*---------------------------------确定中心宽度--------------------------------------*/
+.centre{ width:1000px; margin:0 auto;}
+
+
+/*---------------------------------article 分块--------------------------------------*/
+.sec1{ height:206px;}
+.sec2{ height:180px; margin-top:50px;}
+.sec3{ height:204px; margin-top:30px;}
+
+/*---------------------------------header 编辑区-------------------------------------*/
+header ul{ float:right; margin-top:140px;}
+header ul li{ float:left; width:86px;}
+header ul li span{ display:block; font-size:9px;}
+header ul li .active{ color:#a90d9e;}
+
+/*---------------------------------section sec1 编辑区-------------------------------------*/
+.sec1 .banner{ width: 682px; height: 206px; clear: both; float: left; }
+.sec1 .move h3 span{ color:#4a4a4a; font-size:14px; font-weight:bold; margin-right:5px;}
+.sec1 .move{ float:left; color:#8f8f8f; margin-top:10px; margin-left:45px;}
+.sec1 .move ul{ margin-top:8px; margin-left:15px;}
+.sec1 .move ul li{ line-height:24px; list-style:disc;}
+.sec1 .more{ margin-top:150px; margin-right:20px; float:right; line-height:42px; width:42px; height:42px; border:4px solid #333; background:#000; border-radius:42px; text-align:center; box-shadow:2px 2px 1px #666;}
+.sec1 .more a{ color:#fff;}
+.sec1 .more a:hover{ color:#a90d9e;}
+
+.two{ display:block; width:682px; height:206px; overflow:hidden;}
+.two .s-pic{ opacity:0;}
+.two img{ display:block; transition:all 2s linear;}
+.two:hover img{ transform:translateY(-206px);}
+.two:hover .s-pic{ opacity:1;}
+
+
+/*---------------------------------section sec2 编辑区-------------------------------------*/
+/*------------news*/
+.sec2 .news{ float:left; width:219px; height:180px; margin-left:10px; border-right:1px solid #ccc; color:#8f8f8f;}
+.sec2 h3 span{ display:block; font-size:14px; color:#4a4a4a; font-weight:bold;}
+.sec2 h3 a{ color:#3c3c3c; float:right; margin-right:10px; margin-top:-10px;}
+.sec2 h3 a:hover{ color:#a90d9e;}
+.sec2 .news ul{ margin-top:8px;}
+.sec2 .news ul li{ line-height:22px; list-style:disc; margin-left:15px;}
+/*---------about*/
+.sec2 .about{ float:left; width:430px; height:180px; margin-left:10px; margin-right:15px;}
+.sec2 h2{ text-align:center;}
+.sec2 h2 a{ color:#000; font-size:14px; font-weight:bold;}
+.sec2 h2 a:hover{ color:#a90d9e;}
+.sec2 img{ float:left; margin-right:15px;}
+.sec2 .about p{ text-indent:2em;}
+.sec2 .about p a{ color:#ff0000;}
+.sec2 .about p a:hover{ color:#4a4a4a;}
+/*-------------contact*/
+.sec2 .contact{ width:240px; height:180px; float:left; padding-left:35px; border-left:1px solid #ccc; color:#8f8f8f;}
+.sec2 .contact h3 a{ color:#3c3c3c; font-family:"microsoft yahei"; float:left; font-weight:bold; font-size:14px; margin-bottom:10px;}
+.sec2 .contact .wei{ float:left; margin-left:30px; margin-top:10px;}
+.sec2 .contact .adr{ float:left; clear:both; margin-top:5px;}
+.sec2 .contact .adr h4{ color:#3c3c3c; font-weight:bold; font-family:"microsoft yahei";}
+
+/*-----------------------------------section sec3 编辑区----------------------------------------*/
+.sec3 ul{ width:758px; height:162px; float:left; margin-top:40px;}
+.sec3 ul li{ float:left;}
+.sec3 p{ color:#2d2d2d;}
+.sec3 p a{ margin-left:550px; color:#2d2d2d;}
+.sec3 p a:hover{ color:#a90d9e;}
+.sec3 p span{ margin-right:10px; font-weight:bold; font-size:20px; margin-left:10px; padding-top:20px; font-family:"microsoft yahei";}
+.sec3 .video{ margin-top:20px; width:227px; height:181px; float:left; background:url(../images/video.jpg) no-repeat;}
+.sec3 .video img{ margin-left:9px; margin-top:7px;}
+
+
+/*----------------------------------footer 编辑区----------------------------------------*/
+footer .f_nav p{ text-align:center; color:#d3d3d3; margin-bottom:5px;}
+footer .f_nav .con{ padding-top:20px; padding-bottom:15px;}
+footer .f_nav p a{ color:#d3d3d3;}
+footer .f_nav p a:hover{ color:#d3d3d3; text-decoration:underline;}
+
+
+
+/*---------------------------------banner*/
+.banner{ position:relative;}
+.banner .bx-pager{ position:absolute; right:50px; bottom:25px;}
+.banner .bx-pager .pager-link{ height:25px; width:25px; line-height:25px; display:block; float:left; background-color:#404; border-radius:25px; margin-right:10px; color:#fff; text-align:center;}
+.banner .bx-pager .pager-active{ background-color:#C36;}
+.banner .bx-prev{ position:absolute; left:0px; top:80px; height:35px; line-height:35px; width:70px; background-color:rgba(204,0,102,.1); text-align:center; color:#fff; color:rgba(255,255,255,.3)}
+.banner .bx-next{ position:absolute; right:0px; top:80px; height:35px; line-height:35px; width:70px; background-color:rgba(204,0,102,.1); text-align:center; color:#fff;color:rgba(255,255,255,.3)}
+.banner .bx-next:hover,.banner .bx-prev:hover{ background-color:rgba(204,0,102,.8); color:#fff;}

@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#f7f7f7;
+	font-family:"宋体", "微软雅黑","Microsoft YaHei","LiHei Pro Medium",STHeiti,Calibri,"黑体", Arial;
+	font-size: 12px;
+	color: #909090;
+	border: 0;
+	background-image: url(../images/homebg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	line-height: 20px;
+	text-align:left;
+}
+html, body {
+	width: 100%;
+	height:100%;
+}
+ul, li, input, select {
+	list-style: none;
+}
+input.checkbox, input.radio {
+	vertical-align: middle;
+	width: 14px !important;
+	_height: 14px;
+}
+input, select, textarea {
+	font-size: 11px;
+	color: #555;
+	font-family:"宋体", "微软雅黑",Calibri,"Microsoft YaHei","黑体", Arial;
+	vertical-align:middle;
+	line-height: normal;
+	resize:none;
+}
+*+html select {
+	height: 20px !important;
+}
+a, a:link, a:visited {
+	color: #717171;
+	text-decoration: none;
+	cursor: pointer, hand;
+}
+a:hover, a:active {
+	text-decoration: none;
+	color:#a90d9e;
+	cursor: pointer;
+}
+img, fieldset, form, h1, h2, h3, h4, p, dl, dt, dd, p {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-size: 1em;
+}
+div, td, ul, li, dd {
+	padding:0;
+	margin:0;
+	text-transform: none;
+}
+
+.clr {
+	clear:both;
+	background:none;
+}
+/*--------{margin: 0;padding: 0;}---------------*/
+*:focus {outline: none;}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    border: 0 none;
+	outline: 0 none;
+	margin: 0;
+	padding: 0;
+}
+.displayNone{
+	display: none;	
+}
+.hide{
+	height:0px;
+	visibility: hidden;
+}
+.position_absolute{
+	position: absolute;	
+}
+.position_relative{
+	position: relative;
+}
+
+/*---------------------------------框架----------------------------------*/
+
+article, aside, dialog, figure, footer, header, legend, nav, section {display:block;}
+article{
+	
+}	
+#content{
+	text-align: center;	
+	width:100%;
+	height:100%;
+}
+
+/*---------------------------------分块--------------------------------------*/
+body{ background /*\**/:url(../images/body.gif) repeat-x \9;}
+header{ background /*\**/:url(../images/top_Bg.jpg) no-repeat center 0 \9; background:url(../images/top_Bg.jpg) no-repeat center 0,url(../images/body.gif) repeat-x; overflow:hidden; height:198px;}article{ height:1200px;}
+footer{ background:url(../images/foot_Bg.jpg) repeat-x; height:190px;}
+
+/*---------------------------------确定中心宽度--------------------------------------*/
+.centre{ width:1000px; margin:0 auto;}
+footer .centre{ height:100%;}
+
+/*---------------------------------header 编辑区-------------------------------------*/
+header ul{ float:right; margin-top:140px;}
+header ul li{ float:left; width:86px;}
+header ul li span{ display:block; font-size:9px;}
+header ul li .active{ color:#a90d9e;}
+
+/*----------------------------------article 编辑区---------------------------------*/
+.picture{ margin-top:25px;}
+/*----------------------------------nav 编辑区-----------------------------------*/
+nav{ width:240px; height:100%; float:left; color:#717171; margin-right:25px;}
+nav .der{ height:36px; margin-top:40px;}
+nav .qixia h2 img{ float:left; margin-right:5px;}
+nav .qixia h2 a{ float:left; display:block; font-family:"microsoft yahei"; font-size:26px; line-height:22px; font-weight:bold; color:#2d2d2d; }
+nav .qixia h2 a:hover{ color:#a90d9e;}
+nav .qixia h2 span{ display:block; clear:both; padding-left:37px; margin-bottom:12px;}
+nav .qixia ul{ margin-left:10px; margin-bottom:15px;}
+nav .qixia ul li{ line-height:22px;}
+nav .contact h2 a{ display:block; font-family:"microsoft yahei"; font-size:16px; font-weight:bold; color:#2d2d2d; margin-bottom:10px;}
+nav .contact .wei{ margin-left:20px;}
+nav .contact .wei img{ margin-right:20px;}
+nav .contact h3{ font-size:14px; color:#2d2d2d; font-weight:bold;}
+nav .contact .addr{ margin-bottom:15px;}
+
+/*----------------------------------section 编辑区----------------------------------------*/
+section{ width:735px; float:left; color:#717171;}
+section  img{ margin-top:50px; margin-bottom:20px;}
+section ul li img{ margin:0; margin-right:15px; float:left; vertical-align:middle;}
+section ul li{ height:100px; overflow:hidden; margin-bottom:25px;}
+section ul li h2 a{ display:block; font-size:16px; font-weight:bold; line-height:30px;}
+section ul li .tit{ color:#2d2d2d;}
+section ul li .tit:hover{ color:#a90d9e;}
+
+/*----------------------------------footer 编辑区----------------------------------------*/
+footer .f_nav p{ text-align:center; color:#d3d3d3; margin-bottom:5px;}
+footer .f_nav .con{ padding-top:20px; padding-bottom:15px;}
+footer .f_nav p a{ color:#d3d3d3;}
+footer .f_nav p a:hover{ color:#d3d3d3; text-decoration:underline;}
